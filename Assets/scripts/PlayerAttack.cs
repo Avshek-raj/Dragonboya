@@ -36,7 +36,6 @@ public class PlayerAttack : MonoBehaviour
         for (int i = 0; i < fireballs.Length; i++) {
             if (!fireballs[i].activeInHierarchy) {
                 return i;
-                break;
             }
         }
         return 0;
